@@ -1,0 +1,102 @@
+* {
+    margin: 0 auto;
+}
+
+main {
+    position: relative;
+    width: 80%;
+    background-color: #ffd900;
+    height: 1000px;
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #5f0085;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #ff0000;
+}
+
+#A {
+    width: 80%;
+    height: 300px;
+    background-color: #333333;
+    float: left;
+    /* "flutua" para a esquerda*/
+}
+
+aside {
+    width: 20%;
+    height: 700px;
+    background-color: #00ff0d;
+    float: right;
+    /*"flutua" para a direita*/
+}
+
+#B {
+    width: 40%;
+    height: 200px;
+    background-color: #00fff2;
+    float: left;
+}
+
+#C {
+    width: 40%;
+    height: 200px;
+    background-color: #ff8102;
+    float: left;
+}
+
+#D {
+    width: 80%;
+    height: 200px;
+    background-color: #ffffff;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #2f00ff;
+    float: left;
+}
+
+/*responsiviidade - mínimo de tela em 600px*/
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+
+    aside {
+        display: none;
+    }
+
+    /* display none é para nao aparecer*/
+    #A {
+        width: 100%;
+        background-color: #ff0000;
+    }
+
+    #B {
+        width: 100%;
+    }
+
+    #C{
+        width: 100%;
+    }
+
+    #D {
+        width: 100%;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: #000000;
+    }
+}
